@@ -42,7 +42,7 @@ void customLineV(int x, int y0, int y1, int c)
 }
 void customRect(int x, int y, int w, int h, int c)
 {
-	fillrectangle(x,h,y,w);
+	fillrectangle(x,y,x+w,y+h);
 }
 #endif
 
